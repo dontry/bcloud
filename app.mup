@@ -1,0 +1,924 @@
+{
+  "title": "app",
+  "id": 1,
+  "formatVersion": 2,
+  "ideas": {
+    "1": {
+      "title": "database.js",
+      "id": 3,
+      "attr": {
+        "style": {
+          "background": "#ffff00"
+        }
+      },
+      "ideas": {
+        "1": {
+          "title": "fetchItem",
+          "id": 114
+        }
+      }
+    },
+    "11": {
+      "title": "settings.js",
+      "id": 7,
+      "attr": {
+        "style": {
+          "background": "#ffff00"
+        }
+      },
+      "ideas": {
+        "1": {
+          "title": "sitePath",
+          "id": 93,
+          "attr": {
+            "style": {
+              "background": "#33cccc"
+            }
+          }
+        },
+        "2": {
+          "title": "templatePath",
+          "id": 94,
+          "attr": {
+            "style": {
+              "background": "#33cccc"
+            }
+          }
+        },
+        "3": {
+          "title": "history",
+          "id": 95,
+          "attr": {
+            "style": {
+              "background": "#33cccc"
+            }
+          }
+        }
+      }
+    },
+    "36": {
+      "title": "template_manager.js",
+      "id": 13,
+      "attr": {
+        "style": {
+          "background": "#ffff00"
+        }
+      },
+      "ideas": {
+        "1": {
+          "title": "initialize()",
+          "id": 74
+        },
+        "2": {
+          "title": "commonData()",
+          "id": 75
+        },
+        "3": {
+          "title": "fetch(name, data, success)",
+          "id": 77
+        },
+        "4": {
+          "title": "tryToLoadFromStorage(name)",
+          "id": 78
+        }
+      }
+    },
+    "41": {
+      "title": "models",
+      "id": 8,
+      "attr": {
+        "style": {}
+      },
+      "ideas": {
+        "1": {
+          "title": "quiz.js",
+          "id": 27,
+          "ideas": {
+            "4": {
+              "title": "getQuestions",
+              "id": 115,
+              "attr": {
+                "style": {}
+              }
+            },
+            "5": {
+              "title": "edit()",
+              "id": 128
+            },
+            "1.5": {
+              "title": "url()",
+              "id": 119
+            }
+          },
+          "attr": {
+            "style": {
+              "background": "#ffff00"
+            }
+          }
+        },
+        "2": {
+          "title": "question.js",
+          "id": 28,
+          "ideas": {
+            "4": {
+              "title": "reuse()",
+              "id": 45
+            },
+            "5": {
+              "title": "edit()",
+              "id": 129
+            }
+          },
+          "attr": {
+            "style": {
+              "background": "#ffff00"
+            }
+          }
+        },
+        "3": {
+          "title": "result.js",
+          "id": 29,
+          "attr": {
+            "style": {
+              "background": "#ffff00"
+            }
+          },
+          "ideas": {
+            "1": {
+              "title": "url()",
+              "id": 211,
+              "ideas": {}
+            }
+          }
+        }
+      }
+    },
+    "51": {
+      "title": "collections",
+      "id": 11,
+      "ideas": {
+        "1": {
+          "title": "quizes.js",
+          "id": 30,
+          "ideas": {
+            "1": {
+              "title": "url()",
+              "id": 162
+            },
+            "2": {
+              "title": "model",
+              "id": 167
+            }
+          },
+          "attr": {
+            "style": {
+              "background": "#ffff00"
+            }
+          }
+        },
+        "2": {
+          "title": "questions.js",
+          "id": 31,
+          "ideas": {
+            "1": {
+              "title": "url()",
+              "id": 164
+            },
+            "3": {
+              "title": "setQuizId(quiz_id)",
+              "id": 171
+            },
+            "0.5": {
+              "title": "quiz_id",
+              "id": 169,
+              "attr": {
+                "style": {
+                  "background": "#33cccc"
+                }
+              }
+            }
+          },
+          "attr": {
+            "style": {
+              "background": "#ffff00"
+            }
+          }
+        },
+        "3": {
+          "title": "results.js",
+          "id": 32,
+          "ideas": {
+            "1": {
+              "title": "url()",
+              "id": 165,
+              "ideas": {}
+            },
+            "3": {
+              "title": "setQuizId(quiz_id)",
+              "id": 174
+            },
+            "0.5": {
+              "title": "quiz_id",
+              "id": 170,
+              "attr": {
+                "style": {
+                  "background": "#33cccc"
+                }
+              }
+            }
+          },
+          "attr": {
+            "position": [
+              97.5,
+              93,
+              1
+            ],
+            "style": {
+              "background": "#ffff00"
+            }
+          }
+        }
+      }
+    },
+    "61": {
+      "title": "views",
+      "id": 12,
+      "ideas": {
+        "1": {
+          "title": "pages",
+          "id": 33,
+          "ideas": {
+            "1": {
+              "title": "index.js",
+              "id": 34,
+              "ideas": {
+                "1": {
+                  "title": "title()",
+                  "id": 190
+                },
+                "2": {
+                  "title": "render()",
+                  "id": 191
+                },
+                "3": {
+                  "title": "wakeUp",
+                  "id": 192
+                },
+                "4": {
+                  "title": "sleep",
+                  "id": 193
+                },
+                "5": {
+                  "title": "initialize()",
+                  "id": 194
+                }
+              },
+              "attr": {
+                "style": {
+                  "background": "#ffff00"
+                }
+              }
+            },
+            "2": {
+              "title": "quiz.js",
+              "id": 36,
+              "ideas": {
+                "1": {
+                  "title": "add()",
+                  "id": 120,
+                  "attr": {
+                    "style": {}
+                  }
+                },
+                "2": {
+                  "title": "edit()",
+                  "id": 121,
+                  "attr": {
+                    "style": {}
+                  }
+                },
+                "3": {
+                  "title": "remove(item)",
+                  "id": 122,
+                  "attr": {
+                    "style": {}
+                  }
+                },
+                "4": {
+                  "title": "title()",
+                  "id": 195
+                },
+                "5": {
+                  "title": "url()",
+                  "id": 196
+                },
+                "6": {
+                  "title": "render()",
+                  "id": 197
+                },
+                "7": {
+                  "title": "wakeUp()",
+                  "id": 198
+                },
+                "8": {
+                  "title": "sleep()",
+                  "id": 199
+                },
+                "9": {
+                  "title": "initialize(params)",
+                  "id": 201
+                }
+              },
+              "attr": {
+                "style": {
+                  "background": "#ffff00"
+                }
+              }
+            },
+            "3": {
+              "title": "result.js",
+              "id": 37,
+              "ideas": {
+                "1": {
+                  "title": "title()",
+                  "id": 203
+                },
+                "2": {
+                  "title": "url()",
+                  "id": 204
+                },
+                "3": {
+                  "title": "render()",
+                  "id": 205
+                },
+                "4": {
+                  "title": "wakeUpg()",
+                  "id": 206
+                },
+                "5": {
+                  "title": "sleep()",
+                  "id": 207
+                },
+                "6": {
+                  "title": "initializ(params)",
+                  "id": 208
+                }
+              },
+              "attr": {
+                "style": {
+                  "background": "#ffff00"
+                }
+              }
+            }
+          }
+        },
+        "2": {
+          "title": "dialogs",
+          "id": 132,
+          "ideas": {
+            "1": {
+              "title": "add_question.js",
+              "id": 133,
+              "ideas": {
+                "1": {
+                  "title": "initialize()",
+                  "id": 125,
+                  "attr": {
+                    "style": {}
+                  }
+                },
+                "4": {
+                  "title": "onSubmit()",
+                  "id": 146
+                },
+                "0.5": {
+                  "title": "dialogName",
+                  "id": 144,
+                  "attr": {
+                    "style": {}
+                  }
+                },
+                "0.75": {
+                  "title": "events",
+                  "id": 145,
+                  "attr": {
+                    "style": {}
+                  }
+                }
+              },
+              "attr": {
+                "style": {
+                  "background": "#ffff00"
+                }
+              }
+            },
+            "2": {
+              "title": "remove_question.js",
+              "id": 134,
+              "ideas": {
+                "1": {
+                  "title": "initialize()",
+                  "id": 136,
+                  "attr": {
+                    "style": {}
+                  }
+                },
+                "2": {
+                  "title": "doProcess()",
+                  "id": 137
+                },
+                "3": {
+                  "title": "onSubmit",
+                  "id": 138
+                },
+                "0.5": {
+                  "title": "dialogName",
+                  "id": 142,
+                  "attr": {
+                    "style": {
+                      "background": "#33cccc"
+                    }
+                  }
+                },
+                "0.75": {
+                  "title": "events",
+                  "id": 143,
+                  "attr": {
+                    "style": {
+                      "background": "#33cccc"
+                    }
+                  }
+                }
+              },
+              "attr": {
+                "style": {
+                  "background": "#ffff00"
+                }
+              }
+            },
+            "3": {
+              "title": "add_quiz.js",
+              "id": 149,
+              "ideas": {
+                "1": {
+                  "title": "dialogName",
+                  "id": 151,
+                  "attr": {
+                    "style": {
+                      "background": "#33cccc"
+                    }
+                  }
+                },
+                "2": {
+                  "title": "events",
+                  "id": 152,
+                  "attr": {
+                    "style": {
+                      "background": "#33cccc"
+                    }
+                  }
+                },
+                "3": {
+                  "title": "initialize()",
+                  "id": 153
+                },
+                "4": {
+                  "title": "onSubmit()",
+                  "id": 155
+                }
+              },
+              "attr": {
+                "style": {
+                  "background": "#ffff00"
+                }
+              }
+            },
+            "4": {
+              "title": "remove_quiz.js",
+              "id": 150,
+              "ideas": {
+                "1": {
+                  "title": "dialogName",
+                  "id": 157,
+                  "attr": {
+                    "style": {
+                      "background": "#33cccc"
+                    }
+                  }
+                },
+                "2": {
+                  "title": "events",
+                  "id": 158,
+                  "attr": {
+                    "style": {
+                      "background": "#33cccc"
+                    }
+                  }
+                },
+                "3": {
+                  "title": "initialize(params)",
+                  "id": 159
+                },
+                "4": {
+                  "title": "doProcess()",
+                  "id": 160
+                },
+                "5": {
+                  "title": "onSubmit()",
+                  "id": 161
+                }
+              },
+              "attr": {
+                "style": {
+                  "background": "#ffff00"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "91": {
+      "title": "abstracts",
+      "id": 17,
+      "ideas": {
+        "1": {
+          "title": "page.js",
+          "id": 18,
+          "ideas": {
+            "1": {
+              "title": "isReady",
+              "id": 48,
+              "attr": {
+                "style": {
+                  "background": "#33cccc"
+                }
+              }
+            },
+            "2": {
+              "title": "setURL(url)",
+              "id": 49
+            },
+            "3": {
+              "title": "setTitle(title)",
+              "id": 50
+            },
+            "4": {
+              "title": "wakeUp()",
+              "id": 51
+            },
+            "5": {
+              "title": "sleep()",
+              "id": 52
+            },
+            "6": {
+              "title": "renderHTML(data)",
+              "id": 53
+            },
+            "7": {
+              "title": "switchBuffers()",
+              "id": 54
+            },
+            "8": {
+              "title": "renderLoading()",
+              "id": 55
+            }
+          },
+          "attr": {
+            "style": {
+              "background": "#ffff00"
+            }
+          }
+        },
+        "2": {
+          "title": "dialog.js",
+          "id": 20,
+          "attr": {
+            "style": {
+              "background": "#ffff00"
+            }
+          },
+          "ideas": {
+            "1": {
+              "title": "show(data)",
+              "id": 57
+            },
+            "2": {
+              "title": "initalFocus()",
+              "id": 58
+            },
+            "3": {
+              "title": "renderLoading()",
+              "id": 62
+            },
+            "4": {
+              "title": "renderHTML(data)",
+              "id": 64
+            },
+            "5": {
+              "title": "hide()",
+              "id": 65
+            },
+            "0.5": {
+              "title": "focusOnInit",
+              "id": 59,
+              "attr": {
+                "style": {
+                  "background": "#33cccc"
+                }
+              }
+            },
+            "0.75": {
+              "title": "isVisible",
+              "id": 60,
+              "attr": {
+                "style": {
+                  "background": "#33cccc"
+                }
+              }
+            },
+            "0.25": {
+              "title": "el",
+              "id": 66,
+              "attr": {
+                "style": {
+                  "background": "#33cccc"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "38.5": {
+      "title": "router.js",
+      "id": 46,
+      "attr": {
+        "style": {
+          "background": "#ffff00"
+        }
+      },
+      "ideas": {
+        "1": {
+          "title": "setUrl(path)",
+          "id": 79
+        },
+        "2": {
+          "title": "redirect(path)",
+          "id": 80
+        },
+        "3": {
+          "title": "index()",
+          "id": 88
+        },
+        "4": {
+          "title": "result()",
+          "id": 89
+        },
+        "5": {
+          "title": "quiz()",
+          "id": 90,
+          "attr": {
+            "style": {}
+          }
+        },
+        "6": {
+          "title": "init()",
+          "id": 92
+        },
+        "0.5": {
+          "title": "routes",
+          "id": 81,
+          "attr": {
+            "style": {
+              "background": "#33cccc"
+            }
+          },
+          "ideas": {
+            "1": {
+              "title": "\"(/)\": \"index\"",
+              "id": 84
+            },
+            "2": {
+              "title": "\"quiz(/)\": quiz",
+              "id": 85
+            },
+            "3": {
+              "title": "\"result(/)\": result",
+              "id": 140
+            }
+          }
+        },
+        "0.75": {
+          "title": "dialogs",
+          "id": 82,
+          "attr": {
+            "style": {
+              "background": "#33cccc"
+            }
+          }
+        }
+      }
+    },
+    "39.75": {
+      "title": "view_stack.js",
+      "id": 47,
+      "attr": {
+        "style": {
+          "background": "#ffff00"
+        }
+      },
+      "ideas": {
+        "1": {
+          "title": "stack: {}",
+          "id": 67,
+          "attr": {
+            "style": {
+              "background": "#33cccc"
+            }
+          }
+        },
+        "2": {
+          "title": "inStackCount",
+          "id": 68,
+          "attr": {
+            "style": {
+              "background": "#33cccc"
+            }
+          }
+        },
+        "3": {
+          "title": "addView(name, params, view)",
+          "id": 69
+        },
+        "4": {
+          "title": "getView(name, params)",
+          "id": 70
+        },
+        "5": {
+          "title": "clear()",
+          "id": 71
+        },
+        "6": {
+          "title": "removeOldestIfNeeded()",
+          "id": 72,
+          "attr": {
+            "style": {}
+          }
+        }
+      }
+    },
+    "-1": {
+      "title": "quiz_management",
+      "id": 106,
+      "ideas": {
+        "1": {
+          "title": "app.js",
+          "attr": {
+            "style": {
+              "background": "#ffff00"
+            }
+          },
+          "ideas": {
+            "1": {
+              "title": "init()",
+              "id": 108
+            },
+            "2": {
+              "title": "showDialog(dialogName, params)",
+              "id": 109
+            },
+            "3": {
+              "title": "showPage(pageName, params)",
+              "id": 110
+            },
+            "4": {
+              "title": "setProgress",
+              "id": 111
+            },
+            "5": {
+              "title": "loadingStatus",
+              "id": 112
+            },
+            "6": {
+              "title": "renderLayoutBlocks",
+              "id": 113
+            }
+          },
+          "id": 107
+        }
+      },
+      "attr": {
+        "style": {
+          "background": "#993366"
+        }
+      }
+    },
+    "-11": {
+      "title": "templates",
+      "id": 14,
+      "ideas": {
+        "4": {
+          "title": "pages",
+          "id": 176,
+          "ideas": {
+            "2": {
+              "title": "question.tpl",
+              "id": 23,
+              "attr": {
+                "style": {
+                  "background": "#ff6600"
+                }
+              }
+            },
+            "3": {
+              "title": "quiz.tpl",
+              "id": 22,
+              "attr": {
+                "style": {
+                  "background": "#ff6600"
+                }
+              }
+            },
+            "4": {
+              "title": "index.tpl",
+              "id": 182,
+              "attr": {
+                "style": {
+                  "background": "#ff6600"
+                }
+              }
+            }
+          }
+        },
+        "5": {
+          "title": "components",
+          "id": 179,
+          "ideas": {
+            "2": {
+              "title": "quiz_item.tpl",
+              "id": 24,
+              "attr": {
+                "style": {
+                  "background": "#ff6600"
+                }
+              }
+            }
+          }
+        },
+        "6": {
+          "title": "dialogs",
+          "id": 184,
+          "ideas": {
+            "1": {
+              "title": "add_quiz.tpl",
+              "id": 185,
+              "attr": {
+                "style": {
+                  "background": "#ff6600"
+                }
+              },
+              "ideas": {}
+            },
+            "2": {
+              "title": "add_question.tpl",
+              "id": 186,
+              "attr": {
+                "style": {
+                  "background": "#ff6600"
+                }
+              }
+            },
+            "1.5": {
+              "title": "remove_quiz.tpl",
+              "id": 188,
+              "attr": {
+                "style": {
+                  "background": "#ff6600"
+                }
+              }
+            },
+            "1.75": {
+              "title": "remove_question.tpl",
+              "id": 189,
+              "attr": {
+                "style": {
+                  "background": "#ff6600"
+                }
+              }
+            }
+          }
+        }
+      },
+      "attr": {
+        "position": [
+          34.5,
+          926,
+          1
+        ],
+        "style": {}
+      }
+    }
+  },
+  "links": []
+}
