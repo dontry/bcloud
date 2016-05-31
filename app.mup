@@ -12,9 +12,56 @@
         }
       },
       "ideas": {
-        "1": {
-          "title": "fetchItem",
-          "id": 114
+        "3": {
+          "title": "dataBaseName",
+          "id": 221,
+          "attr": {
+            "style": {
+              "background": "#33cccc"
+            }
+          }
+        },
+        "4": {
+          "title": "dataStore",
+          "id": 222,
+          "attr": {
+            "style": {
+              "background": "#33cccc"
+            }
+          }
+        },
+        "14": {
+          "title": "myDB",
+          "id": 214,
+          "ideas": {
+            "1": {
+              "title": "open()",
+              "id": 215
+            },
+            "2": {
+              "title": "clear()",
+              "id": 216
+            },
+            "3": {
+              "title": "delete()",
+              "id": 217
+            },
+            "4": {
+              "title": "fetchAll()",
+              "id": 218
+            },
+            "5": {
+              "title": "add()",
+              "id": 219
+            },
+            "6": {
+              "title": "fetch()",
+              "id": 220
+            }
+          },
+          "attr": {
+            "style": {}
+          }
         }
       }
     },
@@ -769,7 +816,7 @@
       }
     },
     "-1": {
-      "title": "quiz_management",
+      "title": "Quiz_management",
       "id": 106,
       "ideas": {
         "1": {
